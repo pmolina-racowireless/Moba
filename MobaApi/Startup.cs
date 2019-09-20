@@ -20,6 +20,8 @@ namespace MobaApi
             Configuration = configuration;
         }
 
+        
+
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -39,7 +41,7 @@ namespace MobaApi
 
             app.UseCors(builder =>
             {
-                builder.WithOrigins("http://localhost:6001")
+                builder.WithOrigins("https://localhost:6001", "https://localhost:5001")
                        .AllowAnyMethod()
                        .AllowAnyHeader();
             });
