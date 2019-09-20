@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "MobaShared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MobaShared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MobaShared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MobaShared/1.0.0": {
+      "type": "project",
+      "path": "../MobaShared/MobaShared.csproj",
+      "msbuildProject": "../MobaShared/MobaShared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "MobaShared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\pmolina\\.nuget\\packages\\": {},
@@ -15,18 +34,18 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\moba\\MobaApi\\MobaApi.csproj",
+      "projectUniqueName": "C:\\Moba\\mobaapi\\MobaApi.csproj",
       "projectName": "MobaApi",
-      "projectPath": "C:\\moba\\MobaApi\\MobaApi.csproj",
+      "projectPath": "C:\\Moba\\mobaapi\\MobaApi.csproj",
       "packagesPath": "C:\\Users\\pmolina\\.nuget\\packages\\",
-      "outputPath": "C:\\moba\\MobaApi\\obj\\",
+      "outputPath": "C:\\Moba\\mobaapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\moba\\NuGet.Config",
+        "C:\\Moba\\NuGet.Config",
         "C:\\Users\\pmolina\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
@@ -41,7 +60,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Moba\\MobaShared\\MobaShared.csproj": {
+              "projectPath": "C:\\Moba\\MobaShared\\MobaShared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

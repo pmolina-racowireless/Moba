@@ -12,6 +12,7 @@ Microsoft.Extensions.Logging.Abstractions.dll
 Microsoft.Extensions.Options.dll
 Microsoft.Extensions.Primitives.dll
 Microsoft.JSInterop.dll
+MobaShared.dll
 Mono.Security.dll
 Mono.WebAssembly.Interop.dll
 mscorlib.dll
@@ -26,4 +27,3 @@ System.Runtime.CompilerServices.Unsafe.dll
 System.Text.Encodings.Web.dll
 System.Text.Json.dll
 System.Threading.Tasks.Extensions.dll
-MobaClient.pdb

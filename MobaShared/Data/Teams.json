@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Team Solo Mid",
+    "shortName": "TSM",
+    "startDate": "2012-05-07",
+    "regionID": 0,
+    "regionPopularity": 900.0,
+    "globalPopularity": 500.0
+  },
+  {
+    "name": "Team Liquid",
+    "shortName": "TL",
+    "startDate": "2013-05-07",
+    "regionID": 0,
+    "regionPopularity": 800,
+    "globalPopularity": 650
+  }
+]

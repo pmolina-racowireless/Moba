@@ -331,6 +331,16 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "MobaShared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MobaShared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MobaShared.dll": {}
+        }
       }
     }
   },
@@ -1424,6 +1434,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "MobaShared/1.0.0": {
+      "type": "project",
+      "path": "../MobaShared/MobaShared.csproj",
+      "msbuildProject": "../MobaShared/MobaShared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1432,6 +1447,7 @@
       "Microsoft.AspNetCore.Blazor.Build >= 3.0.0-preview9.19457.4",
       "Microsoft.AspNetCore.Blazor.DevServer >= 3.0.0-preview9.19457.4",
       "Microsoft.AspNetCore.Blazor.HttpClient >= 3.0.0-preview9.19457.4",
+      "MobaShared >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -1443,18 +1459,18 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\moba\\MobaClient\\MobaClient.csproj",
+      "projectUniqueName": "C:\\Moba\\mobaclient\\MobaClient.csproj",
       "projectName": "MobaClient",
-      "projectPath": "C:\\moba\\MobaClient\\MobaClient.csproj",
+      "projectPath": "C:\\Moba\\mobaclient\\MobaClient.csproj",
       "packagesPath": "C:\\Users\\pmolina\\.nuget\\packages\\",
-      "outputPath": "C:\\moba\\MobaClient\\obj\\",
+      "outputPath": "C:\\Moba\\mobaclient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\moba\\NuGet.Config",
+        "C:\\Moba\\NuGet.Config",
         "C:\\Users\\pmolina\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
@@ -1469,7 +1485,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Moba\\MobaShared\\MobaShared.csproj": {
+              "projectPath": "C:\\Moba\\MobaShared\\MobaShared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

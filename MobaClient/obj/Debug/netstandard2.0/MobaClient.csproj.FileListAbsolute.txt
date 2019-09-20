@@ -127,3 +127,9 @@ C:\moba\MobaClient\obj\Debug\netstandard2.0\blazor\linker\System.Threading.Tasks
 C:\moba\MobaClient\obj\Debug\netstandard2.0\blazor\linker\MobaClient.pdb
 C:\moba\MobaClient\obj\Debug\netstandard2.0\blazor\inputs.bootjson.cache
 C:\moba\MobaClient\obj\Debug\netstandard2.0\blazor\blazor.boot.json
+C:\Moba\mobaclient\bin\Debug\netstandard2.0\dist\_framework\_bin\MobaShared.dll
+C:\Moba\mobaclient\bin\Debug\netstandard2.0\dist\_framework\_bin\MobaShared.pdb
+C:\Moba\mobaclient\bin\Debug\netstandard2.0\MobaShared.dll
+C:\Moba\mobaclient\bin\Debug\netstandard2.0\MobaShared.pdb
+C:\Moba\mobaclient\obj\Debug\netstandard2.0\blazor\linker\MobaShared.dll
+C:\Moba\mobaclient\obj\Debug\netstandard2.0\blazor\linker\MobaShared.pdb

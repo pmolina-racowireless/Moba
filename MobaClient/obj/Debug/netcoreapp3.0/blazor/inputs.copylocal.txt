@@ -1,0 +1,5 @@
+C:\Users\pmolina\.nuget\packages\microsoft.aspnetcore.blazor\3.0.0-preview9.19457.4\lib\netstandard2.0\Microsoft.AspNetCore.Blazor.dll
+C:\Users\pmolina\.nuget\packages\microsoft.aspnetcore.blazor.httpclient\3.0.0-preview9.19457.4\lib\netstandard2.0\Microsoft.AspNetCore.Blazor.HttpClient.dll
+C:\Users\pmolina\.nuget\packages\mono.webassembly.interop\3.0.0-rc1.19456.10\lib\netstandard2.0\Mono.WebAssembly.Interop.dll
+C:\Moba\MobaApi\bin\Debug\netcoreapp3.0\MobaApi.dll
+C:\Moba\MobaShared\bin\Debug\netstandard2.0\MobaShared.dll

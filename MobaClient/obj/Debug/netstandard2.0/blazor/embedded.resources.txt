@@ -21,3 +21,4 @@ C:\Users\pmolina\.nuget\packages\system.runtime.compilerservices.unsafe\4.6.0-rc
 C:\Users\pmolina\.nuget\packages\system.text.encodings.web\4.6.0-rc1.19456.4\lib\netstandard2.0\System.Text.Encodings.Web.dll
 C:\Users\pmolina\.nuget\packages\system.text.json\4.6.0-rc1.19456.4\lib\netstandard2.0\System.Text.Json.dll
 C:\Users\pmolina\.nuget\packages\system.threading.tasks.extensions\4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll
+C:\Moba\MobaShared\bin\Debug\netstandard2.0\MobaShared.dll
