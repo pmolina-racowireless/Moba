@@ -1,0 +1,7 @@
+C:\Moba\MobaShared\bin\Debug\netstandard2.0\MobaShared.deps.json
+C:\Moba\MobaShared\bin\Debug\netstandard2.0\MobaShared.dll
+C:\Moba\MobaShared\bin\Debug\netstandard2.0\MobaShared.pdb
+C:\Moba\MobaShared\obj\Debug\netstandard2.0\MobaShared.AssemblyInfoInputs.cache
+C:\Moba\MobaShared\obj\Debug\netstandard2.0\MobaShared.AssemblyInfo.cs
+C:\Moba\MobaShared\obj\Debug\netstandard2.0\MobaShared.dll
+C:\Moba\MobaShared\obj\Debug\netstandard2.0\MobaShared.pdb
