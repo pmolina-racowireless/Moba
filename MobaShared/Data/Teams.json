@@ -10,7 +10,7 @@
         "globalPopularity": 500.0
     },
     {
-        "TeamId": 0,
+        "TeamId": 1,
         "LeagueId": 0,
         "name": "Team Liquid",
         "shortName": "TL",
@@ -20,7 +20,7 @@
         "globalPopularity": 500.0
     },
     {
-        "TeamId": 0,
+        "TeamId": 2,
         "LeagueId": 0,
         "name": "Cloud 9",
         "shortName": "C9",
@@ -30,8 +30,8 @@
         "globalPopularity": 500.0
     },
     {
-        "TeamId": 0,
-        "LeagueId": 0,
+        "TeamId": 3,
+        "LeagueId": 1,
         "name": "Counter Logic Gaming",
         "shortName": "CLG",
         "startDate": "2012-01-01",

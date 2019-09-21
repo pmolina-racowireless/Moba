@@ -13,16 +13,16 @@ else
 {
 <div class="container">
     <div class="row">
-        <div class="col-sm">
-        <h3>League 1</h3>
-        <TeamsShortlist Teams = "@teams" />
+        @foreach (var league in leagues)
+        {
+            <div class="col-sm">
+            <h5>@league.Name</h5>
+            @{
+                teamsShortList = Array.FindAll(teams, t => t.LeagueId.Equals(league.LeagueId));
+            }
+            <TeamsShortlist Teams = "@teamsShortList" />
         </div>
-        <div class="col-sm">
-        <h3>League 2</h3>
-        </div>
-        <div class="col-sm">
-        <h3>League 3</h3>
-        </div>
+        }
     </div>
 </div>
         <table class="table">
@@ -50,10 +50,14 @@ else
 
 @code {
     Team[] teams;
+    League[] leagues;
+    Team[] teamsShortList;
 
     protected override async Task OnInitializedAsync()
     {
         teams = await Http.GetJsonAsync<Team[]>("https://localhost:6001/team");
+        leagues = await Http.GetJsonAsync<League[]>("https://localhost:6001/league");
+        teamsShortList = teams;
     }
 
 }
