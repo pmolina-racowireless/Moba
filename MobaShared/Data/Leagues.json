@@ -1,0 +1,20 @@
+[
+    {
+        "LeagueId": 0,
+        "Name": "North American Championship",
+        "ShortName": "LCS",
+        "RegionId": 0
+    },
+    {
+        "LeagueId": 1,
+        "Name": "European Championship",
+        "ShortName": "LEC",
+        "RegionId": 1
+    },
+    {
+        "LeagueId": 2,
+        "Name": "Korean Championship",
+        "ShortName": "LCK",
+        "RegionId": 2
+    }
+]

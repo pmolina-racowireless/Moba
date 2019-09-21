@@ -4,6 +4,10 @@ namespace MobaShared
 {
     public class Team
     {
+        public int TeamId { get; set; }
+
+        public int LeagueId { get; set; }
+        
         public string Name { get; set; }
 
         public string ShortName { get; set; }

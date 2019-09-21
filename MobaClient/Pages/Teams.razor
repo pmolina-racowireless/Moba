@@ -1,0 +1,59 @@
+@page "/teams"
+@inject HttpClient Http
+
+<h1>Teams</h1>
+
+@if (teams == null)
+{
+    <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+}
+else
+{
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+        <h3>League 1</h3>
+        <TeamsShortlist Teams = "@teams" />
+        </div>
+        <div class="col-sm">
+        <h3>League 2</h3>
+        </div>
+        <div class="col-sm">
+        <h3>League 3</h3>
+        </div>
+    </div>
+</div>
+        <table class="table">
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>Founded in</th>
+                <th>Initials</th>
+                <th>Region</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var team in teams)
+            {
+                <tr>
+                    <td>@team.Name</td>
+                    <td>@team.StartDate.ToShortDateString()</td>
+                    <td>@team.ShortName</td>
+                    <td>@team.RegionID</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    Team[] teams;
+
+    protected override async Task OnInitializedAsync()
+    {
+        teams = await Http.GetJsonAsync<Team[]>("https://localhost:6001/team");
+    }
+
+}

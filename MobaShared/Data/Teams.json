@@ -1,18 +1,42 @@
 [
-  {
-    "name": "Team Solo Mid",
-    "shortName": "TSM",
-    "startDate": "2012-05-07",
-    "regionID": 0,
-    "regionPopularity": 900.0,
-    "globalPopularity": 500.0
-  },
-  {
-    "name": "Team Liquid",
-    "shortName": "TL",
-    "startDate": "2013-05-07",
-    "regionID": 0,
-    "regionPopularity": 800,
-    "globalPopularity": 650
-  }
+    {
+        "TeamId": 0,
+        "LeagueId": 0,
+        "name": "Team Solo Mid",
+        "shortName": "TSM",
+        "startDate": "2012-05-07",
+        "regionID": 0,
+        "regionPopularity": 840.0,
+        "globalPopularity": 500.0
+    },
+    {
+        "TeamId": 0,
+        "LeagueId": 0,
+        "name": "Team Liquid",
+        "shortName": "TL",
+        "startDate": "2013-01-01",
+        "regionID": 0,
+        "regionPopularity": 900.0,
+        "globalPopularity": 500.0
+    },
+    {
+        "TeamId": 0,
+        "LeagueId": 0,
+        "name": "Cloud 9",
+        "shortName": "C9",
+        "startDate": "2014-03-10",
+        "regionID": 0,
+        "regionPopularity": 900.0,
+        "globalPopularity": 500.0
+    },
+    {
+        "TeamId": 0,
+        "LeagueId": 0,
+        "name": "Counter Logic Gaming",
+        "shortName": "CLG",
+        "startDate": "2012-01-01",
+        "regionID": 0,
+        "regionPopularity": 700.0,
+        "globalPopularity": 400.0
+    }
 ]

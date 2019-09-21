@@ -1,0 +1,12 @@
+<ul>
+    @foreach (var team in Teams)
+    {
+    <li>@team.Name</li>    
+    }
+</ul>
+
+@code
+{
+    [Parameter]
+    public Team[] Teams { get; set; }
+}
