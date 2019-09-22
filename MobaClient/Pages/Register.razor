@@ -28,7 +28,7 @@
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <InputText Id="password" Class="form-control" @bind-Value="@RegisterModel.Password" />
+                <InputPassword Id="password" Class="form-control" @bind-Value="@RegisterModel.Password" />
                 <ValidationMessage For="@(() => RegisterModel.Password)" />
             </div>
             <div class="form-group">
