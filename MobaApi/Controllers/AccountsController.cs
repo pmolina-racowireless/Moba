@@ -1,10 +1,10 @@
-﻿using AuthenticationWithClientSideBlazor.Shared;
+﻿using MobaShared.Auth;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AuthenticationWithClientSideBlazor.Server.Controllers
+namespace MobaApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

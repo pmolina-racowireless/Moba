@@ -1,4 +1,4 @@
-namespace AuthenticationWithClientSideBlazor.Shared
+namespace MobaShared.Auth
 {
     public class LoginResult
     {

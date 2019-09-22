@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace AuthenticationWithClientSideBlazor.Shared
+namespace MobaShared.Auth
 {
     public class RegisterResult
     {

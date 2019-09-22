@@ -1,6 +1,6 @@
 using System;
 
-namespace MobaShared
+namespace MobaShared.Models
 {
     public class Team
     {

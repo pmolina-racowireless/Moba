@@ -35,11 +35,11 @@ else
 }
 
 @code {
-    MobaShared.Team[] forecasts;
+    Team[] forecasts;
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetJsonAsync<MobaShared.Team[]>("https://localhost:6001/team");
+        forecasts = await Http.GetJsonAsync<Team[]>("https://localhost:6001/team");
     }
 
     public class WeatherForecast

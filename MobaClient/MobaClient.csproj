@@ -1,19 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <OutputType>Exe</OutputType>
-    <LangVersion>7.3</LangVersion>
-    <RazorLangVersion>3.0</RazorLangVersion>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <LangVersion>7.3</LangVersion>
+        <RazorLangVersion>3.0</RazorLangVersion>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="BlazorStrap" Version="1.0.0-RC1-04" />
-    <PackageReference Include="Microsoft.AspNetCore.Blazor" Version="3.0.0-preview9.19457.4" />
-    <PackageReference Include="Microsoft.AspNetCore.Blazor.Build" Version="3.0.0-preview9.19457.4" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.AspNetCore.Blazor.HttpClient" Version="3.0.0-preview9.19457.4" />
-    <PackageReference Include="Microsoft.AspNetCore.Blazor.DevServer" Version="3.0.0-preview9.19457.4" PrivateAssets="all" />
-    <ProjectReference Include="..\MobaShared\MobaShared.csproj" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="BlazorStrap" Version="1.0.0-RC1-04" />
+        <PackageReference Include="Blazored.LocalStorage" Version="2.1.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Blazor" Version="3.0.0-preview9.19457.4" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="3.0.0-rc1.19457.4" />
+        <PackageReference Include="Microsoft.AspNetCore.Components" Version="3.0.0-rc1.19457.4" />
+        <PackageReference Include="Microsoft.AspNetCore.Blazor.Build" Version="3.0.0-preview9.19457.4" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.AspNetCore.Blazor.HttpClient" Version="3.0.0-preview9.19457.4" />
+        <PackageReference Include="Microsoft.AspNetCore.Blazor.DevServer" Version="3.0.0-preview9.19457.4" PrivateAssets="all" />
+        <ProjectReference Include="..\MobaShared\MobaShared.csproj" />
+    </ItemGroup>
 
 </Project>

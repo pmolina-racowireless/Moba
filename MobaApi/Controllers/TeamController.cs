@@ -1,6 +1,7 @@
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Cors;
 
 namespace MobaApi.Controllers
 {
@@ -15,6 +16,7 @@ namespace MobaApi.Controllers
             _logger = logger;
         }
 
+        [Authorize]
         [HttpGet]
         [EnableCors]
         public string Get()

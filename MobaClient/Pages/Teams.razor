@@ -1,4 +1,6 @@
 @page "/teams"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
 @inject HttpClient Http
 
 <h1>Teams</h1>
