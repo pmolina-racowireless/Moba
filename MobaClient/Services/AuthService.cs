@@ -25,14 +25,14 @@ namespace MobaClient.Services
 
         public async Task<RegisterResult> Register(RegisterModel registerModel)
         {
-            var result = await _httpClient.PostJsonAsync<RegisterResult>("api/accounts", registerModel);
+            var result = await _httpClient.PostJsonAsync<RegisterResult>("https://localhost:6001/accounts", registerModel);
 
             return result;
         }
 
         public async Task<LoginResult> Login(LoginModel loginModel)
         {
-            var result = await _httpClient.PostJsonAsync<LoginResult>("api/Login", loginModel);
+            var result = await _httpClient.PostJsonAsync<LoginResult>("https://localhost:6001/Login", loginModel);
 
             if (result.Successful)
             {

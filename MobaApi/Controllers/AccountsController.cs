@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MobaApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class AccountsController : ControllerBase
     {

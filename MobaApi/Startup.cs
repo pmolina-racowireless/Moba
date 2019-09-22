@@ -48,7 +48,7 @@ namespace MobaApi
                             ValidateIssuerSigningKey = true,
                             ValidIssuer = Configuration["JwtIssuer"],
                             ValidAudience = Configuration["JwtAudience"],
-                            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SHADOWOFTHEBEAST1989SHADOWOFTHEBEAST2019"]))
+                            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JwtSecurityKey"]))
                         };
                     });
 
