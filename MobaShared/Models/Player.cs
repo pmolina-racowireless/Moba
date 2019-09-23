@@ -30,5 +30,9 @@ namespace MobaShared.Models
         
         public int Consistency { get; set; }
 
+        public int Mental { get; set; }
+
+        public int Fitness { get; set; }
+
     }
 }

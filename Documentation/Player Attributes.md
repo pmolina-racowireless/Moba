@@ -1,7 +1,26 @@
-- **Popularity**    : Adds to the rate of player fanbase growth
+- **Popularity**    : Adds to the rate of player fanbase growth.
+  - **Affected Mechanics**  : Fanbase Growth, Player Friendliness.
+  - **Affected Positions**  : All (Full).
 - **Mechanics**     : Determines how good a player is at laning and skirmishes.  Slightly influences teamfighting.
+  - **Affected Mechanics**  : Laning, Skirmishes (Full) | Teamfighting (Half).
+  - **Affected Positions**  : Top, Mid, ADC (Full) | Jungle, Support (Half).
 - **Strategy**      : Determines how good a player is at following the team strategy and macro knowledge(Objective Control, vision).
+  - **Affected Mechanics**  : Objectives, Vision (Full).
+  - **Affected Positions**  : Jungle, Support (Full) | Top, Mid, ADC (Half).
 - **Adaptability**  : Determines how long a player takes to learn new champions/adapts to a new meta.
+  - **Affected Mechanics**  : New champions proficiency, Meta proficiency.
+  - **Affected Positions**  : All (Full).
 - **Leadership**    : Determines the level of influence this player has in his teammates.
+  - **Affected Mechanics**  : Team cohesiveness.
+  - **Affected Positions**  : All (Full)
 - **Teamwork**      : Determines how good this player is at teamfighting and team bonding.
+  - **Affected Mechanics**  : Teamfighting, Team Cohesiveness (Full).
+  - **Affected Positions**  : All (Full)
 - **Consistency**   : Determines how likely a player is to perform at its highest possible ability.
+  - **Affected Mechanics**  : Teamfighting, Team Cohesiveness, laning, skirmishes, objectives, vision (Full).
+  - **Affected Positions**  : All (Full)
+- **Happiness**     : The player's current happiness level.  Affects teamwork and negotiations.
+  - **Affected Mechanics**  : Teamwork (Half), Negotiations (Full)
+  - **Affected Positions**  : All (Full)
+- **Mental**        : Determines the player's mental fortitude.  Boosts consistency during high-pressure matches.
+- **Fitness**       : Determines how injury/sick prone a player is.
