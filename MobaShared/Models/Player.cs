@@ -20,7 +20,7 @@ namespace MobaShared.Models
 
         public int Mechanics { get; set; }
 
-        public int Macro { get; set; }
+        public int Strategy { get; set; }
 
         public int Adaptability { get; set; }
 

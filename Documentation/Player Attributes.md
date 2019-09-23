@@ -1,1 +1,7 @@
-- **Popularity** : 
+- **Popularity**    : Adds to the rate of player fanbase growth
+- **Mechanics**     : Determines how good a player is at laning and skirmishes.  Slightly influences teamfighting.
+- **Strategy**      : Determines how good a player is at following the team strategy and macro knowledge(Objective Control, vision).
+- **Adaptability**  : Determines how long a player takes to learn new champions/adapts to a new meta.
+- **Leadership**    : Determines the level of influence this player has in his teammates.
+- **Teamwork**      : Determines how good this player is at teamfighting and team bonding.
+- **Consistency**   : Determines how likely a player is to perform at its highest possible ability.
