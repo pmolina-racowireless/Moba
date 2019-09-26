@@ -23,4 +23,8 @@
   - **Affected Mechanics**  : Teamwork (Half), Negotiations (Full)
   - **Affected Positions**  : All (Full)
 - **Mental**        : Determines the player's mental fortitude.  Boosts consistency during high-pressure matches.
+  - **Affected Mechanics**  : Consistency(Half)
+  - **Affected Positions**  : All (Full)
 - **Fitness**       : Determines how injury/sick prone a player is.
+  - **Affected Mechanics**  : Injury (Full), 
+  - **Affected Positions**  : All (Full)

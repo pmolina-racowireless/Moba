@@ -34,5 +34,7 @@ namespace MobaShared.Models
 
         public int Fitness { get; set; }
 
+        public int Fans { get; set; }
+
     }
 }
